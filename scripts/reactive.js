@@ -176,7 +176,8 @@ window.onload = () => {
         origin = [];
         destination = [];
         currentPath = [];
-        alert("Path cleared.");
+        document.getElementById("searchbar-origin").value = "";
+        document.getElementById("searchbar-destination").value = "";
         updateTable();
     });
 
