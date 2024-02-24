@@ -1,3 +1,11 @@
+input {
+    width: 100%;
+}
+
+p {
+    color: black;
+}
+
 .site-content {
     display: flex;
     flex-direction: row;
@@ -11,10 +19,9 @@
     display: flex;
     flex-direction: column;
     color: aliceblue;
-    border: 3px solid black;
+    /* border: 3px solid black;
+    border-radius: 3px; */
     margin: 2px;
-    border-radius: 3px;
-    flex-basis: 10em;
     min-width: 30%;
 }
 
@@ -23,26 +30,57 @@
     border: 3px solid orange;
     border-radius: 3px;
     margin: auto;
-    flex-basis: 60em;
+    flex-basis: 40em;
     flex-shrink: 0;
     text-align: center;
 }
 
-.searchbar-container {
-    display: flex;
-    border: 3px solid brown;
+.sidebar-top-container {
+    border: 3px solid green;
     border-radius: 3px;
+    display: flex;
+    flex-direction: row;
     margin: 2px;
     margin-bottom: 0px;
+}
+
+.searchbar-container {
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid brown; */
+    border-radius: 3px;
+    flex: 70%;
+}
+
+.search-button-container {
     flex: 30%;
+    /* border: 3px solid green; */
+    border-radius: 3px;
+    text-align: center;
+    position: relative;
+}
+
+.searchbar-origin-container, .searchbar-destination-container{
+    text-align: right;
+    /* border: 3px solid black; */
+    border-radius: 3px;
+    flex: 50%;
+    padding: 1em;
 }
 
 .map-controls-container {
     display: flex;
-    border:3px solid blue;
+    border: 3px solid blue;
     border-radius: 3px;
     margin: 2px;
-    flex: 70%;
+    flex-basis: 3em;
+}
+
+.placeholder {
+    text-align: center;
+    border: 3px solid red;
+    border-radius: 3px;
+    margin: 2px;
 }
 
 .map-container img {
@@ -51,41 +89,150 @@
     object-fit: contain;
 }
 
+#searchbar-origin, #searchbar-destination {
+    font-size: 20pt;
+    height: 2em;
+    border: 3px solid purple;
+    border-radius: 3px;
+}
+
+#search-button {
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#floor-up, #floor-down, #path-clear {
+    width: calc(100% / 3);
+}
+
 @media screen and (max-width: 91em) {
     img {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        max-height: 20em;
-        min-height: 20em;
+        max-height: 35em;
+        min-height: 35em;
+    }
+
+    input {
+        width: 50%;
     }
     
-    div.site-content {
+    .site-content {
         flex-direction: column;
     }
 
-    div.map-container {
+    .map-container {
         margin: 2px;
         flex: auto;
         position: relative;
     }
 
-    div.sidebar-container {
+    .sidebar-container {
         flex: 0;
+        flex-direction: row;
+        margin-bottom: 0;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .sidebar-top-container {
+        margin-bottom: 2px !important;
+        flex: 50%;
+    }
+
+    .sidebar-bottom-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        flex: 50%;
+    }
+
+    .searchbar-container {
+        max-height: 8em;
+        min-height: 8em;
+        min-width: 0;
+        margin-bottom: 2px;
+        flex: 60%;
+    }
+
+    .searchbar-origin-container, .searchbar-destination-container{
+        padding: 0.75em;
+        text-align: right;
+    }
+    
+    .search-button-container {
+        flex: 40%;
+    }
+
+    .map-controls-container {
+        flex: 40%;
+    }
+
+    .placeholder {
+        flex: auto;
+    }
+
+    #searchbar-origin, #searchbar-destination {
+        height: 1em;
+        width: 100%;
+    }
+
+    /* #search-button {
+        left: 10%;
+    } */
+}
+
+@media screen and (max-width: 49em) {
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-height: 19em;
+        min-height: 19em;
+    }
+
+    input {
+        width: 100%;
+    }
+    
+    .site-content {
+        flex-direction: column;
+    }
+
+    .map-container {
+        margin: 2px;
+        flex: auto;
+        position: relative;
+    }
+
+    .sidebar-container {
+        flex: 0;
+        flex-direction: column;
         margin-bottom: 0;
         max-width: 100%;
         height: auto;
     }
 
-    div.searchbar-container {
+    .searchbar-container {
         max-height: 8em;
         min-height: 8em;
         min-width: 0;
         margin-bottom: 2px;
+        flex: 70%;
     }
     
-    div.map-controls-container {
-        display: none;
+    .search-button-container {
+        flex: 30%;
+    }
+
+    #search-button {
+        left: 50%;
     }
 }
