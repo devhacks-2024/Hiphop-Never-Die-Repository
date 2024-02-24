@@ -24,7 +24,6 @@ origin.onkeyup = (e) => {
             if (++count > 5) {
                 break;
             }
-            console.log(result.id);
             const suggestionItem = document.createElement("li");
             suggestionItem.innerHTML = result.id;
             suggestionItem.setAttribute("class",  "suggestion-item");
@@ -51,7 +50,6 @@ destination.onkeyup = (e) => {
             if (++count > 5) {
                 break;
             }
-            console.log(result.id);
             const suggestionItem = document.createElement("li");
             suggestionItem.innerHTML = result.id;
             suggestionItem.setAttribute("class",  "suggestion-item");

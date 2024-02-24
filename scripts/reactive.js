@@ -135,13 +135,6 @@ const changeFloorDown = function() {
 }
 
 function updateTable() {
-    const origin = document.getElementById("searchbar-origin").value;
-    const destination = document.getElementById("searchbar-origin").value;
-    
-    // origin = suggestions.find(item => item.id === origin).pos;
-    // destination = suggestions.find(item => item.id === destination).pos;
-    // need json
-
     for (let i = 0; i < 50; i++) {
         for (let j = 0; j < 50; j++) {
             let cell = document.getElementById("cell" + ((COL * i) + j));
@@ -156,10 +149,15 @@ function updateTable() {
 
 window.onload = () => {
     document.getElementById("search-button").addEventListener("click", function() {
-        if (origin[0] === undefined) {
+        var origin = document.getElementById("searchbar-origin").value;
+        var destination = document.getElementById("searchbar-destination").value;
+
+        if (origin === "" || destination === "") {
             alert("Enter an origin/destination!");
             return;
         }
+        origin = suggestions.find(item => item.id === origin).pos;
+        destination = suggestions.find(item => item.id === destination).pos;
         currentPath = shortest(map.content[floor-1], ROW, COL, origin[0], origin[1], destination[0], destination[1]);
         currentPath.reverse();
         currentPath.push([destination[1], destination[0]]);
@@ -167,7 +165,11 @@ window.onload = () => {
     });
     
     document.getElementById("path-clear").addEventListener("click", function() {
-        alert("Path cleared");
+        origin = [];
+        destination = [];
+        currentPath = [];
+        alert("Path cleared.");
+        updateTable();
     });
 
     document.getElementById("floor-up").addEventListener("click", changeFloorUp);
