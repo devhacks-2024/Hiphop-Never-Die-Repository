@@ -19,8 +19,6 @@ p {
     display: flex;
     flex-direction: column;
     color: aliceblue;
-    /* border: 3px solid black;
-    border-radius: 3px; */
     margin: 2px;
     min-width: 30%;
 }
@@ -48,14 +46,12 @@ p {
 .searchbar-container {
     display: flex;
     flex-direction: column;
-    /* border: 3px solid brown; */
     border-radius: 3px;
     flex: 70%;
 }
 
 .search-button-container {
     flex: 30%;
-    /* border: 3px solid green; */
     border-radius: 3px;
     text-align: center;
     position: relative;
@@ -63,7 +59,6 @@ p {
 
 .searchbar-origin-container, .searchbar-destination-container{
     text-align: right;
-    /* border: 3px solid black; */
     border-radius: 3px;
     flex: 50%;
     padding: 1em;
@@ -148,8 +143,9 @@ p {
     }
 
     .map-container {
-        margin: 2px;
-        max-height: 35em;
+        margin: auto;
+        max-height: calc(35em * (3/4));
+        min-width: 35em;
         max-width: 35em;
         position: relative;
     }
@@ -204,9 +200,9 @@ p {
         width: 100%;
     }
 
-    /* #search-button {
-        left: 10%;
-    } */
+    #grid {
+        font-size: 2pt;
+    }
 }
 
 @media screen and (max-width: 49em) {
@@ -228,8 +224,10 @@ p {
     }
 
     .map-container {
-        margin: 2px;
-        flex: auto;
+        margin: auto;
+        max-height: calc(19em * (3/4));
+        min-width: 19em;
+        max-width: 19em;
         position: relative;
     }
 
@@ -255,5 +253,9 @@ p {
 
     #search-button {
         left: 50%;
+    }
+
+    #grid {
+        font-size: 0pt;
     }
 }
