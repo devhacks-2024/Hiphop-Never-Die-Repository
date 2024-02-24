@@ -59,7 +59,7 @@ p {
 
 #origin-suggestions {
     width: 95%;
-    top: 18%;
+    top: -10%;
     z-index: 99;
     padding: 0;
     display: inline-block;
@@ -103,6 +103,7 @@ p {
     position: relative;
     padding-left: 1em;
     padding-top: 0.75em;
+    padding-bottom: 0.75em;
 }
 
 .searchbar-destination-container {
@@ -121,6 +122,7 @@ p {
     border-radius: 3px;
     margin: 2px;
     flex-basis: 3em;
+    min-height: 3em;
 }
 
 .placeholder {
