@@ -5,7 +5,7 @@
     <title>Test</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="scripts/algorithm.js" defer></script>
-    <script src="scripts/search-bar.js" defer></script>
+    <script type="module" src="scripts/search-bar.js" defer></script>
     <script type="module" src="scripts/reactive.js" defer></script>
 </head>
 <body>
@@ -15,9 +15,11 @@
                 <div class="searchbar-container">
                     <div class="searchbar-origin-container">
                         <input type="text" id="searchbar-origin" size="20" maxlength="20">
+                        <ul id="origin-suggestions"></ul>
                     </div>
                     <div class="searchbar-destination-container">
                         <input type="text" id="searchbar-destination" size="20" maxlength="20">
+                        <ul id="destination-suggestions"></ul>
                     </div>
                 </div>
                 <div class="search-button-container">

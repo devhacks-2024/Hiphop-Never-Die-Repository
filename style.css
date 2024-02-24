@@ -45,9 +45,9 @@ p {
 
 .searchbar-container {
     display: flex;
+    position: relative;
     flex-direction: column;
     border-radius: 3px;
-    flex: 70%;
 }
 
 .search-button-container {
@@ -57,11 +57,62 @@ p {
     position: relative;
 }
 
-.searchbar-origin-container, .searchbar-destination-container{
-    text-align: right;
+#origin-suggestions {
+    width: 95%;
+    top: 18%;
+    z-index: 99;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+}
+
+#origin-suggestions li {
+    position: relative;
+    background-color: black;
+    color: white;
+    min-width: 10em;
+    margin: 0;
+    top: 0%;
+    left: 0;
+    right: 0;
+}
+
+#destination-suggestions {
+    width: 95%;
+    top: 18%;
+    z-index: 99;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+}
+
+#destination-suggestions li {
+    position: relative;
+    background-color: black;
+    color: white;
+    min-width: 10em;
+    top: 0%;
+    left: 0;
+    right: 0;
+}
+
+.searchbar-origin-container {
+    text-align: left;
+    border-radius: 3px;
+    position: relative;
+    padding-left: 1em;
+    padding-top: 0.75em;
+}
+
+.searchbar-destination-container {
+    text-align: left;
     border-radius: 3px;
     flex: 50%;
-    padding: 1em;
+    position: absolute;
+    padding-left: 1em;
+    padding-bottom: 0.75em;
+    top: 50%;
 }
 
 .map-controls-container {
@@ -97,8 +148,9 @@ p {
 }
 
 #searchbar-origin, #searchbar-destination {
+    position: relative;
     font-size: 20pt;
-    height: 2em;
+    height: 1em;
     border: 3px solid purple;
     border-radius: 3px;
 }
@@ -178,8 +230,7 @@ p {
     }
 
     .searchbar-origin-container, .searchbar-destination-container{
-        padding: 0.75em;
-        text-align: right;
+        text-align: left;
     }
     
     .search-button-container {
@@ -198,6 +249,24 @@ p {
         height: 1em;
         width: 100%;
     }
+
+    #origin-suggestions {
+        top: -10%;
+    }
+
+    #destination-suggestions {
+        top: -12%;
+        margin:0;
+    }
+
+    #origin-suggestions li:hover {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    #destination-suggestions li:hover {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
 
     #grid {
         font-size: 2pt;

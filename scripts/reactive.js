@@ -1,5 +1,5 @@
 import map from "../data/map1.json" assert { type: "json"};
-// import { shortest } from "./dijkstra.js";
+import suggestions from "../data/suggestions.json" assert { type: "json"};
 
 var floor = 2;
 var ROW = 50;
@@ -117,6 +117,7 @@ function shortest(grid, row, col, y1, x1, y2, x2) {
 const changeFloorUp = function() {
     if (floor < 6) {
         floor++;
+        currentPath = [];
         document.getElementById("map-image").src = "assets/img/floor_" + floor + ".png";
 
         updateTable();
@@ -126,6 +127,7 @@ const changeFloorUp = function() {
 const changeFloorDown = function() {
     if (floor > 1) {
         floor--;
+        currentPath = [];
         document.getElementById("map-image").src = "assets/img/floor_" + floor + ".png";
 
         updateTable();
@@ -133,15 +135,22 @@ const changeFloorDown = function() {
 }
 
 function updateTable() {
+    const origin = document.getElementById("searchbar-origin").value;
+    const destination = document.getElementById("searchbar-origin").value;
+    
+    // origin = suggestions.find(item => item.id === origin).pos;
+    // destination = suggestions.find(item => item.id === destination).pos;
+    // need json
+
     for (let i = 0; i < 50; i++) {
         for (let j = 0; j < 50; j++) {
-            let cell = document.getElementById("cell" + ((50 * i) + j));
+            let cell = document.getElementById("cell" + ((COL * i) + j));
             cell.style.backgroundColor = "";
         }
     }
     
     for (let i = 0; i < currentPath.length; i++) {
-        document.getElementById("cell" + (50 * currentPath[i][0] + currentPath[i][1])).style.backgroundColor ="red";
+        document.getElementById("cell" + (COL * currentPath[i][0] + currentPath[i][1])).style.backgroundColor ="red";
     }
 }
 
