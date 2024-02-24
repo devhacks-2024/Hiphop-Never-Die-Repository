@@ -1,4 +1,51 @@
-# Welcome to .devHacks 2024!
+# EITC Navigator
+
+## Description
+
+EITC Navigator is the University of Manitoba's first and only web-based application for building-specific navigation. With a responsive and barebone interface, implementing equally simplistic technology for complex features, you'll always find the shortest path to any room. Never get lost in the campus' biggest and most complex building again!
+
+## Motivation
+
+Have you ever:
+
+- Looked at your calendar and wondered where "EITC E2 105" was?
+- Wanted to go to the CSSA Lounge and thought what the heck was "E1-586A"?
+- Needed to gun it to a restroom after your stressful quiz but didn't know where it was?
+- Required the office location of your instructor but it wasn't on the syllabus and scared to shower them with emails?
+- Struggled with the gigantic scope of the building and was on edge every time something new is hosted in a room you've never heard of before?
+
+If you said yes to one, or even all of those, then so did we!
+
+As fellow first year students in the Computer Science program who bonded through seeing each other again and again at the CSSA Lounge, we have struggled immensely, especially in our first couple of weeks, trying to navigate the maze that is Price Faculty of Enginneering. We often wonder how much people like us were missing out on the socials or study spaces this building has to offer, because they couldn't be bothered to struggle for minutes on end without finding their way there.
+
+So, we set out to release this website, originally as a project for the 24-hour hackathon .devHacks 2024, such that no future students will ever have to rip their hair out at the thought of going to EITC ever again!
+
+## Quick Start
+
+Just head to (insert GitHub Pages link once the repo is available to public), put your starting point and destination into the respective search bar, and follow the path!
+
+## Features
+
+- Dijkstra's algorithm for floor-spanning path-finding on a grid system spanning the images
+- Responsive interface taking into account multiple screen sizes
+- Self-explanatory, instructional usage
+- 99.99% hand-collected and designed JSON datasets
+- Clear cut and pure HTML, CSS, and JavaScript; no frameworks required!
+
+## Future plans
+
+- Update to get the positions of and paths towards rooms in the other floors (currently, only rooms in the 2nd floor are tracked)
+- More aliases for various rooms that deserve them
+- Elevators!
+- Extra detailed and optimized pathfinding
+- Expansion to other buildings (and one day, the entire campus!)
+
+## Contributing
+
+Please feel free to take anything in this repository and use it at your own's discretion.
+You can find @pieberrykinnie on Discord if you want to talk anything about the project!
+
+## Legacy (Original welcome message by .devClub: "Welcome to .devHacks 2024!")
 
 Welcome to .devHacks 2024, an exciting hackathon event where creativity and innovation collide! We're thrilled to have you join us for this incredible journey of hacking, learning, and collaboration.
 
