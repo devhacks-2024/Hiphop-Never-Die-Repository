@@ -6,7 +6,7 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="scripts/algorithm.js"></script>
     <script src="scripts/search-bar.js"></script>
-    <script src="scripts/reactive.js"></script>
+    <script type="module" src="scripts/reactive.js"></script>
 </head>
 <body>
     <div class="site-content">
@@ -43,7 +43,10 @@
             </div>
         </div>
         <div class="map-container">
-            <img src="assets/img/floor2.png" id="map-image">
+            <div class="map-overlay">
+                <table id="grid"></table>
+            </div>
+            <img src="assets/img/floor_2.png" id="map-image">
         </div>
     </div>
 </body>
