@@ -27,6 +27,10 @@ origin.onkeyup = (e) => {
             const suggestionItem = document.createElement("li");
             suggestionItem.innerHTML = result.id;
             suggestionItem.setAttribute("class",  "suggestion-item");
+            suggestionItem.onclick = () => {
+                origin.value = suggestionItem.innerHTML;
+                originSuggestions.innerHTML = "";
+            }
             originSuggestions.appendChild(suggestionItem);
         }
     
@@ -53,6 +57,10 @@ destination.onkeyup = (e) => {
             const suggestionItem = document.createElement("li");
             suggestionItem.innerHTML = result.id;
             suggestionItem.setAttribute("class",  "suggestion-item");
+            suggestionItem.onclick = () => {
+                destination.value = suggestionItem.innerHTML;
+                destinationSuggestions.innerHTML = "";
+            }
             destinationSuggestions.appendChild(suggestionItem);
         }
     
