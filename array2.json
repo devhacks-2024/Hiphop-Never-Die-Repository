@@ -6,7 +6,11 @@
         "id": "E1-204"
     },
     {
-        "id": "E1-206"
+        "id": "E1-206",
+        "aliases": [
+            "Irwin Penner",
+            "Dan Rossong"
+        ]
     },
     {
         "id": "E1-208"
@@ -108,10 +112,16 @@
         "id": "E1-246"
     },
     {
-        "id": "E1-248"
+        "id": "E1-248",
+        "aliases": [
+            "Kerry Lynch"
+        ]
     },
     {
-        "id": "E1-250"
+        "id": "E1-250",
+        "aliases": [
+            "Victor Wei"
+        ]
     },
     {
         "id": "E1-251"
@@ -120,7 +130,10 @@
         "id": "E1-252"
     },
     {
-        "id": "E1-256"
+        "id": "E1-256",
+        "aliases": [
+            "Mike Boskwick"
+        ]
     },
     {
         "id": "E1-257"
@@ -177,7 +190,11 @@
         "id": "E1-276"
     },
     {
-        "id": "E1-277"
+        "id": "E1-277",
+        "aliases": [
+            "Abdul Khan",
+            "Lina Zhang"
+        ]
     },
     {
         "id": "E1-279"
@@ -222,16 +239,26 @@
         "id": "E1-309"
     },
     {
-        "id": "E1-310"
+        "id": "E1-310",
+        "aliases": [
+            "Warren Blunt",
+            "Jonathan Regehr"
+        ]
     },
     {
         "id": "E1-311"
     },
     {
-        "id": "E1-312"
+        "id": "E1-312",
+        "aliases": [
+            "Jan Oleszkiewicz"
+        ]
     },
     {
-        "id": "E1-314"
+        "id": "E1-314",
+        "aliases": [
+            "Dagmar Svecova"
+        ]
     },
     {
         "id": "E1-317"
@@ -264,37 +291,64 @@
         "id": "E1-327B"
     },
     {
-        "id": "E1-328"
+        "id": "E1-328",
+        "aliases": [
+            "James Blatz"
+        ]
     },
     {
         "id": "E1-329"
     },
     {
-        "id": "E1-330"
+        "id": "E1-330",
+        "aliases": [
+            "Ella Morris"
+        ]
     },
     {
-        "id": "E1-332"
+        "id": "E1-332",
+        "aliases": [
+            "Masoud Asadzadeh"
+        ]
     },
     {
-        "id": "E1-334"
+        "id": "E1-334",
+        "aliases": [
+            "Ahmed Shalaby"
+        ]
     },
     {
         "id": "E1-335"
     },
     {
-        "id": "E1-336"
+        "id": "E1-336",
+        "aliases": [
+            "Beata Gorczyca"
+        ]
     },
     {
-        "id": "E1-338"
+        "id": "E1-338",
+        "aliases": [
+            "Marolo Alfaro"
+        ]
     },
     {
-        "id": "E1-339"
+        "id": "E1-339",
+        "aliases": [
+            "Qiang Zhang"
+        ]
     },
     {
-        "id": "E1-342"
+        "id": "E1-342",
+        "aliases": [
+            "Jitendra Paliwal"
+        ]
     },
     {
-        "id": "E1-344"
+        "id": "E1-344",
+        "aliases": [
+            "Chyngyz Erkinbaev"
+        ]
     },
     {
         "id": "E1-345"
@@ -306,13 +360,19 @@
         "id": "E1-345B"
     },
     {
-        "id": "E1-346"
+        "id": "E1-346",
+        "aliases": [
+            "Ranjan Sri Ranjan"
+        ]
     },
     {
         "id": "E1-348"
     },
     {
-        "id": "E1-349"
+        "id": "E1-349",
+        "aliases": [
+            "Ying Chen"
+        ]
     },
     {
         "id": "E1-350"
@@ -324,7 +384,10 @@
         "id": "E1-351A"
     },
     {
-        "id": "E1-352"
+        "id": "E1-352",
+        "aliases": [
+            "Fuji Jian"
+        ]
     },
     {
         "id": "E1-353"
@@ -333,22 +396,43 @@
         "id": "E1-353A"
     },
     {
-        "id": "E1-354"
+        "id": "E1-354",
+        "aliases": [
+            "David Levin"
+        ]
     },
     {
-        "id": "E1-356"
+        "id": "E1-356",
+        "aliases": [
+            "Jason Morrison"
+        ]
     },
     {
-        "id": "E1-358"
+        "id": "E1-358",
+        "aliases": [
+            "Natasha Jacobson"
+        ]
     },
     {
         "id": "E1-360"
     },
     {
-        "id": "E1-365"
+        "id": "E1-365",
+        "aliases": [
+            "Virgil Sumaling"
+        ]
     },
     {
-        "id": "E1-368A"
+        "id": "E1-368A",
+        "aliases": [
+            "Shawn Clark",
+            "Jonathan Regehr",
+            "Beata Chartrand",
+            "Pat Fedirchuk",
+            "Jennifer Merrell",
+            "Leah Phillips",
+            "Department of Civil Engineering"
+        ]
     },
     {
         "id": "E1-368B"
@@ -378,7 +462,10 @@
         "id": "E1-369"
     },
     {
-        "id": "E1-372"
+        "id": "E1-372",
+        "aliases": [
+            "Scott Sparrow"
+        ]
     },
     {
         "id": "E1-374"
@@ -399,16 +486,28 @@
         "id": "E1-380"
     },
     {
-        "id": "E1-382"
+        "id": "E1-382",
+        "aliases": [
+            "Madjid Birouk"
+        ]
     },
     {
-        "id": "E1-384"
+        "id": "E1-384",
+        "aliases": [
+            "Nariman Sepehri"
+        ]
     },
     {
-        "id": "E1-386"
+        "id": "E1-386",
+        "aliases": [
+            "Qingjin Peng"
+        ]
     },
     {
-        "id": "E1-388"
+        "id": "E1-388",
+        "aliases": [
+            "Karen Dow"
+        ]
     },
     {
         "id": "E1-389"
@@ -420,7 +519,10 @@
         "id": "E1-389B"
     },
     {
-        "id": "E1-390"
+        "id": "E1-390",
+        "aliases": [
+            "Qiuyan Yuan"
+        ]
     },
     {
         "id": "E1-392"
@@ -438,10 +540,16 @@
         "id": "E1-405"
     },
     {
-        "id": "E1-406"
+        "id": "E1-406",
+        "aliases": [
+            "Sean O'Brien"
+        ]
     },
     {
-        "id": "E1-408"
+        "id": "E1-408",
+        "aliases": [
+            "Vijay Chatoorgoon"
+        ]
     },
     {
         "id": "E1-409"
@@ -450,25 +558,41 @@
         "id": "E1-409A"
     },
     {
-        "id": "E1-410"
+        "id": "E1-410",
+        "aliases": [
+            "Nan Wu"
+        ]
     },
     {
-        "id": "E1-412"
+        "id": "E1-412",
+        "aliases": [
+            "Olanrewaju Ojo"
+        ]
     },
     {
         "id": "E1-414"
     },
     {
-        "id": "E1-417"
+        "id": "E1-417",
+        "aliases": [
+            "Dimos Polyzois"
+        ]
     },
     {
-        "id": "E1-418"
+        "id": "E1-418",
+        "aliases": [
+            "Geoffrey Cao"
+        ]
     },
     {
         "id": "E1-419"
     },
     {
-        "id": "E1-420"
+        "id": "E1-420",
+        "aliases": [
+            "Zeev Kapitanker",
+            "Sviat Karnaoukh"
+        ]
     },
     {
         "id": "E1-421"
@@ -483,7 +607,10 @@
         "id": "E1-422"
     },
     {
-        "id": "E1-423"
+        "id": "E1-423",
+        "aliases": [
+            "Trevor Mazak"
+        ]
     },
     {
         "id": "E1-423A"
@@ -501,13 +628,22 @@
         "id": "E1-428"
     },
     {
-        "id": "E1-430"
+        "id": "E1-430",
+        "aliases": [
+            "Graziano Fiorillo"
+        ]
     },
     {
-        "id": "E1-432"
+        "id": "E1-432",
+        "aliases": [
+            "Ricardo Mantilla"
+        ]
     },
     {
-        "id": "E1-434"
+        "id": "E1-434",
+        "aliases": [
+            "Ehab El-Salakawy"
+        ]
     },
     {
         "id": "E1-435"
@@ -522,25 +658,46 @@
         "id": "E1-437"
     },
     {
-        "id": "E1-438"
+        "id": "E1-438",
+        "aliases": [
+            "Mohamed Bassuoni"
+        ]
     },
     {
-        "id": "E1-439"
+        "id": "E1-439",
+        "aliases": [
+            "Eric Bibeau"
+        ]
     },
     {
         "id": "E1-442"
     },
     {
-        "id": "E1-444"
+        "id": "E1-444",
+        "aliases": [
+            "Jamie Bartz",
+            "Yunhua Luo"
+        ]
     },
     {
-        "id": "E1-446"
+        "id": "E1-446",
+        "aliases": [
+            "Babak Mehran",
+            "Guozhen Zhu"
+        ]
     },
     {
-        "id": "E1-448"
+        "id": "E1-448",
+        "aliases": [
+            "Huma Khalid",
+            "Igor Telichev"
+        ]
     },
     {
-        "id": "E1-449"
+        "id": "E1-449",
+        "aliases": [
+            "Chengjin Wang"
+        ]
     },
     {
         "id": "E1-450"
@@ -549,16 +706,25 @@
         "id": "E1-451"
     },
     {
-        "id": "E1-452"
+        "id": "E1-452",
+        "aliases": [
+            "Chandra Rajulapati"
+        ]
     },
     {
-        "id": "E1-454"
+        "id": "E1-454",
+        "aliases": [
+            "Carl Ho (Ngai Man)"
+        ]
     },
     {
         "id": "E1-456"
     },
     {
-        "id": "E1-458"
+        "id": "E1-458",
+        "aliases": [
+            "Matt Khoshdarregi"
+        ]
     },
     {
         "id": "E1-460"
@@ -588,25 +754,43 @@
         "id": "E1-477"
     },
     {
-        "id": "E1-479"
+        "id": "E1-479",
+        "aliases": [
+            "Paul Krueger"
+        ]
     },
     {
         "id": "E1-480"
     },
     {
-        "id": "E1-482"
+        "id": "E1-482",
+        "aliases": [
+            "Raghavan Jayaraman"
+        ]
     },
     {
-        "id": "E1-484"
+        "id": "E1-484",
+        "aliases": [
+            "Scott Ormiston"
+        ]
     },
     {
-        "id": "E1-486"
+        "id": "E1-486",
+        "aliases": [
+            "Chuang Deng"
+        ]
     },
     {
-        "id": "E1-488"
+        "id": "E1-488",
+        "aliases": [
+            "BingChen Wang,"
+        ]
     },
     {
-        "id": "E1-490"
+        "id": "E1-490",
+        "aliases": [
+            "Cam Verwey"
+        ]
     },
     {
         "id": "E1-491"
@@ -657,46 +841,86 @@
         "id": "E1-527"
     },
     {
-        "id": "E1-528"
+        "id": "E1-528",
+        "aliases": [
+            "Miroslaw Pawlak"
+        ]
     },
     {
-        "id": "E1-530"
+        "id": "E1-530",
+        "aliases": [
+            "James F. Peters"
+        ]
     },
     {
-        "id": "E1-532"
+        "id": "E1-532",
+        "aliases": [
+            "Digvir Jayas"
+        ]
     },
     {
-        "id": "E1-534"
+        "id": "E1-534",
+        "aliases": [
+            "Cyrus Shafai"
+        ]
     },
     {
-        "id": "E1-536"
+        "id": "E1-536",
+        "aliases": [
+            "Pradeepa Yahampath"
+        ]
     },
     {
         "id": "E1-537"
     },
     {
-        "id": "E1-538"
+        "id": "E1-538",
+        "aliases": [
+            "Malcolm Xing"
+        ]
     },
     {
-        "id": "E1-539"
+        "id": "E1-539",
+        "aliases": [
+            "David Kuhn"
+        ]
     },
     {
-        "id": "E1-542"
+        "id": "E1-542",
+        "aliases": [
+            "Meghan Guyot"
+        ]
     },
     {
-        "id": "E1-544"
+        "id": "E1-544",
+        "aliases": [
+            "Ken Ferens"
+        ]
     },
     {
-        "id": "E1-546"
+        "id": "E1-546",
+        "aliases": [
+            "Philip Ferguson"
+        ]
     },
     {
-        "id": "E1-547"
+        "id": "E1-547",
+        "aliases": [
+            "Brendan Pachal"
+        ]
     },
     {
-        "id": "E1-548"
+        "id": "E1-548",
+        "aliases": [
+            "Vahab Khoshdel",
+            "Robert D. McLeod"
+        ]
     },
     {
-        "id": "E1-549"
+        "id": "E1-549",
+        "aliases": [
+            "Vladimir Okhmatovski"
+        ]
     },
     {
         "id": "E1-550"
@@ -720,13 +944,22 @@
         "id": "E1-551E"
     },
     {
-        "id": "E1-552"
+        "id": "E1-552",
+        "aliases": [
+            "Ekram Hossain"
+        ]
     },
     {
-        "id": "E1-554"
+        "id": "E1-554",
+        "aliases": [
+            "Elham Salimi"
+        ]
     },
     {
-        "id": "E1-556"
+        "id": "E1-556",
+        "aliases": [
+            "Xihui (Larry) Liang"
+        ]
     },
     {
         "id": "E1-558"
@@ -738,7 +971,10 @@
         "id": "E1-562"
     },
     {
-        "id": "E1-566"
+        "id": "E1-566",
+        "aliases": [
+            "James Dietrich"
+        ]
     },
     {
         "id": "E1-566A"
@@ -768,7 +1004,10 @@
         "id": "E1-567"
     },
     {
-        "id": "E1-569"
+        "id": "E1-569",
+        "aliases": [
+            "Ehsan Jalayeri"
+        ]
     },
     {
         "id": "E1-571"
@@ -936,7 +1175,11 @@
         "id": "E2-260"
     },
     {
-        "id": "E2-262"
+        "id": "E2-262",
+        "aliases": [
+            "Marcia Friesen",
+            "Jillian Seniuk Cicek"
+        ]
     },
     {
         "id": "E2-262A"
@@ -1062,7 +1305,11 @@
         "id": "E2-324"
     },
     {
-        "id": "E2-327"
+        "id": "E2-327",
+        "aliases": [
+            "Melissa Alexander",
+            "Department of Mechanical Engineering"
+        ]
     },
     {
         "id": "E2-327B"
@@ -1071,28 +1318,47 @@
         "id": "E2-327C"
     },
     {
-        "id": "E2-327D"
+        "id": "E2-327D",
+        "aliases": [
+            "Dr. Olanrewaju (Lanre) Ojo"
+        ]
     },
     {
         "id": "E2-327E"
     },
     {
-        "id": "E2-327F"
+        "id": "E2-327F",
+        "aliases": [
+            "Dr. Sean O'Brien"
+        ]
     },
     {
         "id": "E2-327G"
     },
     {
-        "id": "E2-327H"
+        "id": "E2-327H",
+        "aliases": [
+            "Dr. Yunhua Luo",
+            "Mark F. Tachie"
+        ]
     },
     {
-        "id": "E2-327K"
+        "id": "E2-327K",
+        "aliases": [
+            "Keverley Malawski"
+        ]
     },
     {
-        "id": "E2-327L"
+        "id": "E2-327L",
+        "aliases": [
+            "Jill Lautenschlager"
+        ]
     },
     {
-        "id": "E2-327M"
+        "id": "E2-327M",
+        "aliases": [
+            "Jenifer Romaniuk"
+        ]
     },
     {
         "id": "E2-327N"
@@ -1137,7 +1403,14 @@
         "id": "E2-368"
     },
     {
-        "id": "E2-376"
+        "id": "E2-376",
+        "aliases": [
+            "Danny Mann",
+            "Mandy Tanner",
+            "Caitlin Jacques",
+            "Jen Beaudoin",
+            "Department of Biosystems Engineering"
+        ]
     },
     {
         "id": "E2-376A"
@@ -1149,7 +1422,10 @@
         "id": "E2-376C"
     },
     {
-        "id": "E2-376E"
+        "id": "E2-376E",
+        "aliases": [
+            "Nammy Nadarajah"
+        ]
     },
     {
         "id": "E2-376F"
@@ -1164,7 +1440,15 @@
         "id": "E2-388"
     },
     {
-        "id": "E2-390"
+        "id": "E2-390",
+        "aliases": [
+            "Olga Kuznetsova",
+            "Traci Gledhill",
+            "Tammy Holowachuk",
+            "Eddy (Wai) Cheung",
+            "Samuel Kidd",
+            "Department of Electrical and Computer Engineering"
+        ]
     },
     {
         "id": "E2-390A"
@@ -1173,7 +1457,10 @@
         "id": "E2-390B"
     },
     {
-        "id": "E2-390C"
+        "id": "E2-390C",
+        "aliases": [
+            "Derek Oliver"
+        ]
     },
     {
         "id": "E2-390D"
@@ -1182,13 +1469,19 @@
         "id": "E2-390E"
     },
     {
-        "id": "E2-390G"
+        "id": "E2-390G",
+        "aliases": [
+            "Carl Ho"
+        ]
     },
     {
         "id": "E2-390H"
     },
     {
-        "id": "E2-390J"
+        "id": "E2-390J",
+        "aliases": [
+            "Dean McNeill"
+        ]
     },
     {
         "id": "E2-390K"
@@ -1239,7 +1532,10 @@
         "id": "E2-414"
     },
     {
-        "id": "E2-415"
+        "id": "E2-415",
+        "aliases": [
+            "Witold Kinsner"
+        ]
     },
     {
         "id": "E2-416"
@@ -1506,7 +1802,10 @@
         "id": "E2-572"
     },
     {
-        "id": "E2-574"
+        "id": "E2-574",
+        "aliases": [
+            "Rasit Eskicioglu"
+        ]
     },
     {
         "id": "E2-576"
@@ -1668,7 +1967,10 @@
         "id": "E3-213"
     },
     {
-        "id": "E3-215"
+        "id": "E3-215",
+        "aliases": [
+            "Alexander Wall"
+        ]
     },
     {
         "id": "E3-217"
@@ -1755,7 +2057,10 @@
         "id": "E3-275"
     },
     {
-        "id": "E3-276"
+        "id": "E3-276",
+        "aliases": [
+            "Dave Tataryn"
+        ]
     },
     {
         "id": "E3-282"
@@ -1878,7 +2183,10 @@
         "id": "E3-365A"
     },
     {
-        "id": "E3-370"
+        "id": "E3-370",
+        "aliases": [
+            "Subramaniam Balakrishnan"
+        ]
     },
     {
         "id": "E3-371"
@@ -1935,7 +2243,10 @@
         "id": "E3-404"
     },
     {
-        "id": "E3-404A"
+        "id": "E3-404A",
+        "aliases": [
+            "Puyan Mojabi"
+        ]
     },
     {
         "id": "E3-404B"
@@ -1947,7 +2258,10 @@
         "id": "E3-405"
     },
     {
-        "id": "E3-407"
+        "id": "E3-407",
+        "aliases": [
+            "Syed (Ali) Zaidi"
+        ]
     },
     {
         "id": "E3-409"
@@ -1956,7 +2270,10 @@
         "id": "E3-410"
     },
     {
-        "id": "E3-411"
+        "id": "E3-411",
+        "aliases": [
+            "Blair Yoshida"
+        ]
     },
     {
         "id": "E3-412"
@@ -1983,13 +2300,19 @@
         "id": "E3-424"
     },
     {
-        "id": "E3-430"
+        "id": "E3-430",
+        "aliases": [
+            "Zoran Trajkoski"
+        ]
     },
     {
         "id": "E3-430A"
     },
     {
-        "id": "E3-436"
+        "id": "E3-436",
+        "aliases": [
+            "Cory Smit"
+        ]
     },
     {
         "id": "E3-436A"
@@ -2016,16 +2339,25 @@
         "id": "E3-450A"
     },
     {
-        "id": "E3-453"
+        "id": "E3-453",
+        "aliases": [
+            "Douglas A. Buchanan"
+        ]
     },
     {
-        "id": "E3-455"
+        "id": "E3-455",
+        "aliases": [
+            "Douglas J. Thomson"
+        ]
     },
     {
         "id": "E3-463"
     },
     {
-        "id": "E3-465"
+        "id": "E3-465",
+        "aliases": [
+            "Greg E. Bridges"
+        ]
     },
     {
         "id": "E3-468"
@@ -2037,7 +2369,10 @@
         "id": "E3-471"
     },
     {
-        "id": "E3-472"
+        "id": "E3-472",
+        "aliases": [
+            "Daryl Hamelin"
+        ]
     },
     {
         "id": "E3-473"
@@ -2064,7 +2399,10 @@
         "id": "E3-485"
     },
     {
-        "id": "E3-487"
+        "id": "E3-487",
+        "aliases": [
+            "Dwayne Chrusch"
+        ]
     },
     {
         "id": "E3-488"
@@ -2082,10 +2420,16 @@
         "id": "E3-504"
     },
     {
-        "id": "E3-504A"
+        "id": "E3-504A",
+        "aliases": [
+            "Ian Jeffrey"
+        ]
     },
     {
-        "id": "E3-504B"
+        "id": "E3-504B",
+        "aliases": [
+            "Ahmed Ashraf"
+        ]
     },
     {
         "id": "E3-504C"
@@ -2094,13 +2438,40 @@
         "id": "E3-504D"
     },
     {
+        "id": "E3-505"
+    },
+    {
+        "id": "E3-507"
+    },
+    {
+        "id": "E3-509"
+    },
+    {
         "id": "E3-510"
+    },
+    {
+        "id": "E3-511",
+        "aliases": [
+            "Amine Mezghani"
+        ]
     },
     {
         "id": "E3-512"
     },
     {
+        "id": "E3-513",
+        "aliases": [
+            "Dustin Isleifson"
+        ]
+    },
+    {
         "id": "E3-516"
+    },
+    {
+        "id": "E3-517",
+        "aliases": [
+            "Colin Gilmore"
+        ]
     },
     {
         "id": "E3-518"
@@ -2115,6 +2486,9 @@
         "id": "E3-522C"
     },
     {
+        "id": "E3-527"
+    },
+    {
         "id": "E3-528"
     },
     {
@@ -2124,28 +2498,69 @@
         "id": "E3-540"
     },
     {
+        "id": "E3-541",
+        "aliases": [
+            "Gordon Glatz"
+        ]
+    },
+    {
         "id": "E3-544"
     },
     {
-        "id": "E3-546"
+        "id": "E3-546",
+        "aliases": [
+            "Joe LoVetri"
+        ]
     },
     {
         "id": "E3-548"
     },
     {
-        "id": "E3-550"
+        "id": "E3-550",
+        "aliases": [
+            "Sinisa Janjic",
+            "Mount-First Ng",
+            "Oleg Shevchenko"
+        ]
     },
     {
         "id": "E3-550A"
     },
     {
+        "id": "E3-553"
+    },
+    {
         "id": "E3-554"
+    },
+    {
+        "id": "E3-555",
+        "aliases": [
+            "Gabriel Thomas"
+        ]
+    },
+    {
+        "id": "E3-557",
+        "aliases": [
+            "Sherif Sherif"
+        ]
     },
     {
         "id": "E3-558"
     },
     {
         "id": "E3-558A"
+    },
+    {
+        "id": "E3-559",
+        "aliases": [
+            "Arkady Major"
+        ]
+    },
+    {
+        "id": "E3-561"
+    },
+    {
+        "id": "E3-563"
     },
     {
         "id": "E3-570"
@@ -2166,7 +2581,10 @@
         "id": "E3-575"
     },
     {
-        "id": "E3-576"
+        "id": "E3-576",
+        "aliases": [
+            "Shrimal Koruwage"
+        ]
     },
     {
         "id": "E3-577"
@@ -2196,7 +2614,10 @@
         "id": "E3-586C"
     },
     {
-        "id": "E3-587"
+        "id": "E3-587",
+        "aliases": [
+            "Guy Jonatschick"
+        ]
     },
     {
         "id": "E3-589"
