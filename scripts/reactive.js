@@ -6,8 +6,8 @@ var ROW = 50;
 var COL = 50;
 var currentPath = [];
 // positions: [x, y]
-var origin = [1, 5];
-var destination = [45, 6];
+var origin = [];
+var destination = [];
 // structure for information of each cell
 class cell {
     constructor(x, y, distance) {
@@ -141,9 +141,11 @@ function updateTable() {
             cell.style.backgroundColor = "";
         }
     }
+
+    let intervalSet;
     
     for (let i = 0; i < currentPath.length; i++) {
-        document.getElementById("cell" + (COL * currentPath[i][0] + currentPath[i][1])).style.backgroundColor ="red";
+        document.getElementById("cell" + (COL * currentPath[i][0] + currentPath[i][1])).style.backgroundColor = i == 0 ? "green" : i == currentPath.length - 1 ? "yellow" : "red";    
     }
 }
 
@@ -158,7 +160,13 @@ window.onload = () => {
         }
         origin = suggestions.find(item => item.id === origin).pos;
         destination = suggestions.find(item => item.id === destination).pos;
-        currentPath = shortest(map.content[floor-1], ROW, COL, origin[0], origin[1], destination[0], destination[1]);
+        currentPath = shortest(map.content[floor-1], 
+                               ROW, 
+                               COL, 
+                               origin[0], 
+                               origin[1], 
+                               destination[0], 
+                               destination[1]);
         currentPath.reverse();
         currentPath.push([destination[1], destination[0]]);
         updateTable();
