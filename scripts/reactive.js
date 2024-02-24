@@ -135,39 +135,50 @@ const changeFloorDown = function() {
 }
 
 function updateTable() {
-    const origin = document.getElementById("searchbar-origin").value;
-    const destination = document.getElementById("searchbar-origin").value;
-    
-    // origin = suggestions.find(item => item.id === origin).pos;
-    // destination = suggestions.find(item => item.id === destination).pos;
-    // need json
-
     for (let i = 0; i < 50; i++) {
         for (let j = 0; j < 50; j++) {
             let cell = document.getElementById("cell" + ((COL * i) + j));
             cell.style.backgroundColor = "";
         }
     }
+
+    let intervalSet;
     
     for (let i = 0; i < currentPath.length; i++) {
-        document.getElementById("cell" + (COL * currentPath[i][0] + currentPath[i][1])).style.backgroundColor ="red";
+        document.getElementById("cell" + (COL * currentPath[i][0] + currentPath[i][1])).style.backgroundColor = i == 0 ? "green" : i == currentPath.length - 1 ? "yellow" : "red";    
     }
 }
 
 window.onload = () => {
     document.getElementById("search-button").addEventListener("click", function() {
-        if (origin[0] === undefined) {
+        var origin = document.getElementById("searchbar-origin").value;
+        var destination = document.getElementById("searchbar-destination").value;
+
+        if (origin === "" || destination === "") {
             alert("Enter an origin/destination!");
             return;
         }
-        currentPath = shortest(map.content[floor-1], ROW, COL, origin[0], origin[1], destination[0], destination[1]);
+        origin = suggestions.find(item => item.id === origin).pos;
+        destination = suggestions.find(item => item.id === destination).pos;
+        currentPath = shortest(map.content[floor-1], 
+                               ROW, 
+                               COL, 
+                               origin[0], 
+                               origin[1], 
+                               destination[0], 
+                               destination[1]);
         currentPath.reverse();
         currentPath.push([destination[1], destination[0]]);
         updateTable();
     });
     
     document.getElementById("path-clear").addEventListener("click", function() {
-        alert("Path cleared");
+        origin = [];
+        destination = [];
+        currentPath = [];
+        document.getElementById("searchbar-origin").value = "";
+        document.getElementById("searchbar-destination").value = "";
+        updateTable();
     });
 
     document.getElementById("floor-up").addEventListener("click", changeFloorUp);
