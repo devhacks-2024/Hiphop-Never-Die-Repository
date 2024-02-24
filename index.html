@@ -4,32 +4,51 @@
     <meta name="viewport" content="width=device-width">
     <title>Test</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <script src="scripts/algorithm.js"></script>
-    <script src="scripts/search-bar.js"></script>
-    <script src="scripts/reactive.js"></script>
+    <script src="scripts/algorithm.js" defer></script>
+    <script type="module" src="scripts/search-bar.js" defer></script>
+    <script type="module" src="scripts/reactive.js" defer></script>
 </head>
 <body>
     <div class="site-content">
         <div class="sidebar-container">
-            <div class="searchbar-container">
-                <div id="logo">
-                    <!-- foo -->
+            <div class="sidebar-top-container">
+                <div class="searchbar-container">
+                    <div class="searchbar-origin-container">
+                        <input type="text" id="searchbar-origin" size="20" maxlength="20">
+                        <ul id="origin-suggestions"></ul>
+                    </div>
+                    <div class="searchbar-destination-container">
+                        <input type="text" id="searchbar-destination" size="20" maxlength="20">
+                        <ul id="destination-suggestions"></ul>
+                    </div>
                 </div>
-                <div id="searchbar-origin">
-                    <!-- foo -->
-                </div>
-                <div id="searchbar-destination">
-                    <!-- foo -->
+                <div class="search-button-container">
+                    <button id="search-button">Find path</button>
                 </div>
             </div>
 
-            <div class="map-controls-container">
-                <!-- foo -->
+            <div class="sidebar-bottom-container">
+                <div class="map-controls-container">
+                    <button id="path-clear">Clear path</button>
+                    <button id="floor-up">Go up a floor</button>
+                    <button id="floor-down">Go down a floor</button>
+                </div>
+                <div class="placeholder">
+                    <p id="placeholder-text">
+                        Lorem ipsum dolor sit amet<br>
+                        Lorem ipsum dolor sit amet<br>
+                        Lorem ipsum dolor sit amet<br>
+                        Lorem ipsum dolor sit amet<br>
+                        Lorem ipsum dolor sit amet<br>
+                    </p>
+                </div>
             </div>
         </div>
-
         <div class="map-container">
-            <img src="assets/img/placeholder.png" id="map-image">
+            <div class="map-overlay">
+                <table id="grid"></table>
+            </div>
+            <img src="assets/img/floor_2.png" id="map-image">
         </div>
     </div>
 </body>
