@@ -6,8 +6,8 @@ var ROW = 50;
 var COL = 50;
 var currentPath = [];
 // positions: [x, y]
-var origin = [1, 5];
-var destination = [45, 6];
+var origin = [];
+var destination = [];
 // structure for information of each cell
 class cell {
     constructor(x, y, distance) {
