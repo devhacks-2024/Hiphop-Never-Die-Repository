@@ -46,7 +46,10 @@
         "id": "E1-220"
     },
     {
-        "id": "E1-221"
+        "id": "E1-221",
+        "aliases": [
+            " Open Student Space"
+        ]
     },
     {
         "id": "E1-222"
@@ -1145,7 +1148,10 @@
         "id": "E2-224"
     },
     {
-        "id": "E2-229"
+        "id": "E2-229",
+        "aliases": [
+            "Engineering Design Studio"
+        ]
     },
     {
         "id": "E2-229A"
@@ -1178,7 +1184,8 @@
         "id": "E2-262",
         "aliases": [
             "Marcia Friesen",
-            "Jillian Seniuk Cicek"
+            "Jillian Seniuk Cicek",
+            "Student Services"
         ]
     },
     {
@@ -1197,7 +1204,10 @@
         "id": "E2-262D"
     },
     {
-        "id": "E2-290"
+        "id": "E2-290",
+        "aliases": [
+            "Office of the Dean"
+        ]
     },
     {
         "id": "E2-290A"
@@ -1239,7 +1249,10 @@
         "id": "E2-290P"
     },
     {
-        "id": "E2-292"
+        "id": "E2-292",
+        "aliases": [
+            "Donald K. Johnson Student Centre (UMES)"
+        ]
     },
     {
         "id": "E2-292A"
@@ -1287,7 +1300,10 @@
         "id": "E2-292R"
     },
     {
-        "id": "E2-294"
+        "id": "E2-294",
+        "aliases": [
+            "Doug Ruth Student Lounge"
+        ]
     },
     {
         "id": "E2-304"
@@ -1409,6 +1425,7 @@
             "Mandy Tanner",
             "Caitlin Jacques",
             "Jen Beaudoin",
+            "Song Liu",
             "Department of Biosystems Engineering"
         ]
     },
@@ -1447,7 +1464,8 @@
             "Tammy Holowachuk",
             "Eddy (Wai) Cheung",
             "Samuel Kidd",
-            "Department of Electrical and Computer Engineering"
+            "Department of Electrical and Computer Engineering",
+            "Biomedical Engineering Graduate Program"
         ]
     },
     {
@@ -1577,7 +1595,10 @@
         "id": "E2-440el"
     },
     {
-        "id": "E2-442"
+        "id": "E2-442",
+        "aliases": [
+            "Engineering Access Program (ENGAP)"
+        ]
     },
     {
         "id": "E2-442A"
@@ -1595,7 +1616,10 @@
         "id": "E2-442E"
     },
     {
-        "id": "E2-445"
+        "id": "E2-445",
+        "aliases": [
+            "Database and Data Mining Lab"
+        ]
     },
     {
         "id": "E2-445A"
@@ -2036,7 +2060,10 @@
         "id": "E3-263"
     },
     {
-        "id": "E3-270"
+        "id": "E3-270",
+        "aliases": [
+            " Bell MTS Lecture Theatre"
+        ]
     },
     {
         "id": "E3-270B"
@@ -2144,25 +2171,44 @@
         "id": "E3-340B"
     },
     {
-        "id": "E3-360"
+        "id": "E3-360",
+        "aliases": [
+            "Library"
+        ]
     },
     {
         "id": "E3-361"
     },
     {
-        "id": "E3-362"
+        "id": "E3-362",
+        "aliases": [
+            "Engineering Library",
+            "Library"
+        ]
     },
     {
-        "id": "E3-362A"
+        "id": "E3-362A",
+        "aliases": [
+            "Study room"
+        ]
     },
     {
-        "id": "E3-362B"
+        "id": "E3-362B",
+        "aliases": [
+            "Study room"
+        ]
     },
     {
-        "id": "E3-362C"
+        "id": "E3-362C",
+        "aliases": [
+            "Study room"
+        ]
     },
     {
-        "id": "E3-362D"
+        "id": "E3-362D",
+        "aliases": [
+            "Study room"
+        ]
     },
     {
         "id": "E3-363"
