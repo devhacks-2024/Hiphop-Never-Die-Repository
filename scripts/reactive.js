@@ -23,8 +23,12 @@ const changeFloorDown = function() {
 function updateTable() {
     for (let i = 0; i < 50; i++) {
         for (let j = 0; j < 50; j++) {
-            document.getElementById("cell" + ((50 * i) + j)).innerHTML = 
-                map.content[floor - 1][i][j] == 1 ? "." : "";
+            let cell = document.getElementById("cell" + ((50 * i) + j));
+            if (map.content[floor - 1][i][j] === 1) {
+                cell.style.backgroundColor = "red";
+            } else {
+                cell.style.backgroundColor = "";
+            }
         }
     }
 }
@@ -50,7 +54,11 @@ window.onload = () => {
         for (let j = 0; j < 50; j++) {
             let cell = document.createElement("td");
             cell.id = "cell" + ((50 * i) + j);
-            cell.innerHTML = map.content[floor - 1][i][j];
+            if (map.content[floor - 1][i][j] === 1) {
+                cell.style.backgroundColor = "red";
+            } else {
+                cell.style.backgroundColor = "";
+            }
             row.appendChild(cell);
         }
         tbody.appendChild(row);
